@@ -1,0 +1,308 @@
+/*since CSS makes the front-end of a website shine and it creates a great user experience. 
+Without CSS, websites would be less pleasing to the eye and likely much harder to navigate. 
+In addition to layout and format, CSS is responsible for font color, size, style and more */
+
+*{
+    margin: 0;
+    padding: 0;
+   height:200;
+   
+}
+
+{
+    font-family:'Courier New', Courier, monospace
+}
+
+.intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: linear-gradient(100deg, rgba(56, 238, 10, 0.1) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid green(255,255,255,0.18);
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+  
+    
+}
+.intro p
+{
+    color: rgb(255, 255, 255);
+}
+.intro .img
+{
+    float: center;
+    height: 250px;
+    width: 250px;
+    background-color:#00ffd5;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 15px solid #243dff;
+    box-shadow: 0 0 20px rgba(52, 13, 230, 0.808);
+}
+.content 
+{
+    margin-top: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(176, 176, 255);
+}
+.content .cook
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#e5ff00;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border: 15px solid #e5ff00;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .badminton
+{
+    float: right;
+    height: 140px;
+    width: 140px;
+    background-color:#e5ff00;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    border: 15px solid #e5ff00;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .chess
+{
+    float: right;
+    height: 140px;
+    width: 140px;
+    background-color:yellow;
+    border-radius: 50%;
+    margin-top: 550px;
+    margin-bottom: 20px;
+    margin-left: -170px;
+    border: 15px solid yellow;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .travel
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#e5ff00;
+    border-radius: 50%;
+    margin-top: 550px;
+    margin-bottom: 20px;
+    margin-left: -170px;
+    border: 15px solid #e5ff00;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+#background-video {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+}
+
+.text h1
+{
+    text-align: left;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    color: whitesmoke;
+    padding-left: 450px;
+    font-size: 30px;
+}
+.text h2
+{
+    text-align: right;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color:whitesmoke;
+    padding-right: 430px;
+    font-size: 30px;
+}
+.text h3
+{
+    text-align: left;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: whitesmoke;
+    padding-left: 450px;
+    font-size: 30px;
+}
+
+
+.info
+{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.info h1
+{
+    color:yellow;
+}
+.link h2 a
+{
+    margin-left: 200px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 300);
+    font-size: 30px;
+    text-decoration: none;
+}
+.link h2 a:hover
+{
+ color:rgba(185, 255, 249, 0.808)
+}
+.link h3 a
+{
+    margin-left: 160px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 255);
+    font-size: 30px;
+    text-decoration: none;
+}
+.link h3 a:hover
+{
+ color:rgba(185, 255, 249, 0.808);
+}
+
+.content h1{
+    color:yellow;
+}
+.contact h1
+{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    color: yellow;
+    font-size: 50px;
+}
+.contact h2
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: rgb(122, 124, 252);
+    font-size: 30px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:28px;
+	border:1px solid #c584f3;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 70px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, blue 5%, #a09bf0 100%);
+	background-color:#5ab8e4;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer
+{
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.24) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: rgb(176, 176, 255);
+    color: white;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.footer h1
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:yellow;
+}
+.footer ul
+{
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 48%;
+    transform: translate(-50%,  -50%);
+    display: flex;
+}
+.footer ul li
+{
+    list-style: none;
+    margin: 0 15px;
+}
+.footer ul li a .mail
+{
+    background-color:#00ffd5;
+    border-radius: 150%;
+    border: 15px solid #ffffff;
+    box-shadow: 0 0 15px rgba(185, 255, 249, 0.808);
+    height: 100px;
+}
+.footer ul li a .ig
+{
+   
+    border-radius:50%;
+    border: 15px solid #ffffff;
+    box-shadow: 0 0 1px rgba(185, 255, 249, 0.808);
+    height: 100px;
+}
+.footer ul li a .fb
+{
+    background-color:white;
+    border-radius: 50%;
+    border: 15px solid #ffffff;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+    height: 100px;
+}
+.info p{
+color: white;
+}
+.link .myButton{
+    color:black;
+}
+.contact h2{
+    color: white;
+}
